@@ -1,0 +1,23 @@
+# Core Reinforcement Learning and Environment
+gymnasium>=0.29.1,<1.5.0
+stable-baselines3>=2.3.0
+torch>=2.0.0
+numpy>=1.24.0,<2.0.0
+
+# Data Analysis & Plotting
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.14.0
+
+# Testing and Utilities
+pytest>=7.4.0
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# CARLA Python API:
+# Note: CARLA client package depends on your CARLA server version (e.g. 0.9.14 or 0.9.15).
+# On Linux/Colab or Windows:
+#   pip install carla==0.9.15
+# Or install from your local CARLA installation:
+#   pip install <CARLA_PATH>/PythonAPI/carla/dist/carla-*.whl

@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Reinforcement Learning Checkpoints and Trained Models
+models/*
+!models/.gitkeep
+checkpoints/
+*.zip
+*.pkl
+*.pth
+*.pt
+*.onnx
+
+# Evaluation logs, tensorboard, and results
+tensorboard_logs/
+tb_logs/
+runs/
+results/*
+!results/.gitkeep
+*.csv.tmp
+*.log
+
+# CARLA simulator recordings and temp files
+_out/
+*.log
+*.rec
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
